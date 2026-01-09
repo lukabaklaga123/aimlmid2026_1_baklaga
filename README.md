@@ -23,7 +23,7 @@ The scatter plot below visualizes the data using the exact coordinates retrieved
 
 ### 1. Data Loading and Processing
 I loaded the dataset using Pandas. The file contained pre-extracted numerical features (`words`, `links`, `capital_words`, `spam_word_count`). I separated these features into the `X` variable and the target (`is_spam`) into the `y` variable. The data was split into 70% training and 30% testing sets.
-**Link to Code:** [Link to spam_classifier.py]
+**Link to Code:** [spam_classifier.py](spam_classifier.py)
 
 ### 2. Model Training
 I trained a Logistic Regression model on the training set.
